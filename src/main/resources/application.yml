@@ -1,0 +1,12 @@
+server:
+  port: 8097
+
+cloud:
+  aws:
+    region:
+      static: ${AWS_DIS_REGION}
+    stack:
+      auto: false
+    credentials:
+      access-key: ${AWS_DIS_SECRET_ACCESS_KEY}
+      secret-key: ${AWS_DIS_ACCESS_SECRET_KEY}
